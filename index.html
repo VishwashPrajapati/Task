@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <header class="header__section">
+        <div class="container">
+          <nav class="nav flex">
+            <div class="nav__left flex">
+              <span class="material-symbols-outlined menu"> menu </span>
+
+              <img class="nav__left--logo" src="./assets/logo.png" alt="logo" />
+              <div class="main__nav flex">
+                <div class="main__nav--sub_nav">
+                  <img class="logo" src="./assets/logo.png" alt="logo" />
+                  <span class="material-symbols-outlined cancelBtn">
+                    cancel
+                  </span>
+                </div>
+                <div class="list_items">
+                  New Cars
+                  <span class="material-symbols-outlined"> expand_more </span>
+                </div>
+                <div class="list_items">
+                  Used Cars
+                  <span class="material-symbols-outlined"> expand_more </span>
+                </div>
+                <div class="list_items">
+                  Servicing
+                  <span class="material-symbols-outlined"> expand_more </span>
+                </div>
+                <div class="list_items">
+                  Commercial
+                  <span class="material-symbols-outlined"> expand_more </span>
+                </div>
+                <div class="list_items">Motability</div>
+              </div>
+            </div>
+            <div class="nav__right flex">
+              <div class="nav__right--search_bar flex">
+                <span class="material-symbols-outlined search"> search </span>
+                <input
+                  type="text"
+                  placeholder="Search: 'Make, Model and Location'"
+                />
+                <span class="material-symbols-outlined mic"> mic </span>
+              </div>
+              <div class="nav__right--nav_icons">
+                <div class="location">
+                  <span class="material-symbols-outlined"> location_on </span>
+                  <div>Find us</div>
+                </div>
+                <span class="material-symbols-outlined search"> search </span>
+                <div class="favourite">
+                  <span class="material-symbols-outlined"> favorite </span>
+                  <div>Save</div>
+                </div>
+                <div class="user">
+                  <span class="material-symbols-outlined user"> person </span>
+                  <div>Login</div>
+                </div>
+                <span class="material-symbols-outlined call"> call </span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero__section">
+        <div class="hero__section--img">
+          <img
+            class="hero__section--desktop_banner"
+            src="./assets/Hero-banner-desktop.jpg"
+            alt="Banner"
+          />
+          <img
+            class="hero__section--mobile_banner"
+            src="./assets/Hero-banner-mobile.jpg"
+            alt="Banner"
+          />
+          <div class="container">
+            <div class="hero__section__body">
+              <h2 class="hero__section__body--heading">
+                Explore the new <br />BMW i4 range
+              </h2>
+              <p class="hero__section__body--content">
+                From the cool trend and SUV-inspired Active to the sporty
+                ST-Line, the eighth generation Fiesta impresses across the range
+              </p>
+              <button class="button">Book a test drive</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider__section">
+        <div class="container">
+          <h2 class="slider__section--heading">BMW i4 trims</h2>
+          <div class="slider__wrapper">
+            <div class="slider">
+              <div class="slider__body">
+                <img
+                  class="slider__body--img"
+                  src="assets/Trim-01.jpg"
+                  alt=""
+                />
+                <h3 class="slider__body--title">M 50</h3>
+                <p class="slider__body--content">From &pound;65,795</p>
+                <ul class="slider__body--list">
+                  <li>Velour floor mats</li>
+                  <li>Sun protection glass</li>
+                  <li>Automatic Stabiliy Control (ASC)</li>
+                  <li>Adaptive M Suspension</li>
+                  <li>Storage for wireless chargin</li>
+                  <li>Cruis control with brake assist</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+              <div class="slider__body">
+                <img
+                  class="slider__body--img"
+                  src="assets/Trim-02.jpg"
+                  alt=""
+                />
+                <h3 class="slider__body--title">M Sport</h3>
+                <p class="slider__body--content">From &pound;54,980</p>
+                <ul class="slider__body--list">
+                  <li>Velour floor mats</li>
+                  <li>Sun protection glass</li>
+                  <li>Automatic Stabiliy Control (ASC)</li>
+                  <li>Adaptive M Suspension</li>
+                  <li>Storage for wireless chargin</li>
+                  <li>Cruis control with brake assist</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+              <div class="slider__body">
+                <img
+                  class="slider__body--img"
+                  src="assets/Trim-03.jpg"
+                  alt=""
+                />
+                <h3 class="slider__body--title">Sport</h3>
+                <p class="slider__body--content">From &pound;53,480</p>
+                <ul class="slider__body--list">
+                  <li>Velour floor mats</li>
+                  <li>Sun protection glass</li>
+                  <li>Automatic Stabiliy Control (ASC)</li>
+                  <li>Adaptive M Suspension</li>
+                  <li>Storage for wireless chargin</li>
+                  <li>Cruis control with brake assist</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+              <div class="slider__body">
+                <img
+                  class="slider__body--img"
+                  src="assets/Trim-03.jpg"
+                  alt=""
+                />
+                <h3 class="slider__body--title">Sport</h3>
+                <p class="slider__body--content">From &pound;53,480</p>
+                <ul class="slider__body--list">
+                  <li>Velour floor mats</li>
+                  <li>Sun protection glass</li>
+                  <li>Automatic Stabiliy Control (ASC)</li>
+                  <li>Adaptive M Suspension</li>
+                  <li>Storage for wireless chargin</li>
+                  <li>Cruis control with brake assist</li>
+                  <li>Automatic tailgate operation</li>
+                </ul>
+              </div>
+            </div>
+
+            <button class="next_btn">
+              <span class="material-symbols-outlined"> chevron_right </span>
+            </button>
+            <button class="prev_btn">
+              <span class="material-symbols-outlined"> chevron_left </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="first__section">
+        <img
+          class="first__section--featuredImg"
+          src="./assets/Feature-01.jpg"
+          alt="featuredImg"
+        />
+        <div class="container flex">
+          <div class="first__section--left">
+            <div class="first__section__body">
+              <h2 class="first__section__body--heading">
+                Explore the new BMW <br />interior
+              </h2>
+              <p class="first__section__body--content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                animi cupiditate! Repellendus facere dicta sit! Ullam,
+                laboriosam culpa id ipsa omnis iste voluptatem deserunt voluptas
+                velit rerum et architecto assumenda.
+              </p>
+              <button class="button">Request a Personalised Video</button>
+            </div>
+          </div>
+          <div class="first__section--right">
+            <img
+              class="first__section__img"
+              src="./assets/Feature-01.jpg"
+              alt="Feature image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="second__section">
+        <img
+          class="second__section--featuredImg"
+          src="./assets/Feature-02.jpg"
+          alt="featuredImg"
+        />
+        <div class="container flex">
+          <div class="second__section--left">
+            <img src="assets/Feature-02.jpg" alt="" />
+          </div>
+          <div class="second__section--right">
+            <div class="second__section__content">
+              <h2 class="second__section__content--heading">
+                Electrifying performance <br />with the BMW i4
+              </h2>
+              <p class="second__section__content--content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                animi cupiditate! Repellendus facere dicta sit! Ullam,
+              </p>
+              <div class="inner__section__content">
+                <div class="inner__section__left">
+                  <h2 class="inner__section__left--heading">02:05 hr</h2>
+                  <p class="inner__section__left--content">
+                    Charging at home for a Range of 62 miles
+                  </p>
+                </div>
+                <div class="inner__section__right">
+                  <h2 class="inner__section__right--heading">365</h2>
+                  <p class="inner__section__right--content">
+                    Electric range in miles
+                  </p>
+                </div>
+              </div>
+              <button class="button">Book a test drive</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
